@@ -345,3 +345,119 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media screen and (max-width: 790px){
+
+    div.nav-bar{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: 100vw;
+    }
+     ul.nav-links{
+         flex-direction: column;
+     }
+
+     div.logo{
+         font-size: 1rem;
+     }
+
+     ul li{
+         margin: 0;
+         font-size: 1rem;
+     }
+
+     ul li a{
+         display:block
+     }
+
+}
+
+@media screen and (max-width: 768px){
+    div.hero-background{
+        padding:3rem;
+        font-size: 0.5rem;
+    }
+
+    div.background{
+        padding:10px 30px;
+        width:300px;
+        height: 250px;
+
+    }
+
+    div.background h4{
+        padding: 1rem;
+        font-size: 1rem;
+
+    }
+
+    div.background p{
+        padding-left: 1rem;
+        font-size: 0.8rem;
+
+    }
+
+    div.hero-background-pos {
+        display: none;
+    }
+
+    div.hero-content-heading h3{
+        font-size: 1.5rem;
+        display:grid;
+
+    }
+    div.hero-content-btn a{
+        font-size: 1rem;
+        align-items: center;
+        position: absolute;
+    }
+    div.hero-content-heading p{
+        font-size: 0.7;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    }
+}
+
+
+@media screen and (max-width:768px){
+
+    div.snapshot-team{
+        padding:2rem;
+        background: #555657;
+        text-align: center;
+    }
+
+    div.snapshot-team h2{
+        font-size: 1.2rem;
+    }
+
+    div.snapshot-taem p {
+        font-size: 0.8rem;
+    }
+
+    div.snapshot-box-content{
+        padding:2rem 0rem;
+    }
+
+    div.snapshot-box-content{
+        display :flex;
+        flex-direction: column;
+    }
+
+    div.box1 {
+        width:300px;
+        height:230px;
+    }
+
+    div.box3 {
+
+        width:300px;
+        height:230px;
+    }
+
+    
+
+
+}
